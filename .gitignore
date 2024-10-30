@@ -1,0 +1,19 @@
+# Ignore node_modules folders in both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build output from React if applicable
+client/build/
+
+# Ignore environment variable files if any (for security)
+*.env
+
+# Ignore Mac OS files
+.DS_Store
+
+# Ignore package-lock and yarn.lock if using one package manager exclusively
+package-lock.json
+yarn.lock
