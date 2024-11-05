@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.main-menu{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu-wrapper{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff66;
+    margin-bottom: 20vh;
+}
+
+.start-button{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.host-wrapper{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff66;
+    margin-bottom: 6vh;
+}
+
+.joined-players{
+    width: 95%;
+    height: 25vw;
+    background-color: #ffffff66;
+    position: fixed;
+    top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 0px 1%;
+    max-height: 200px;
+}
+
+.character-card-host{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    align-items:flex-end;
+
+    width: calc(25vw - 50px);
+    height: calc(25vw - 50px);
+    max-height: 180px;
+    max-width: 180px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+
+    background-color: #ffffff66;
+    transition: all 0.3s ease;
+}
+
+
+.player-name{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e0da;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

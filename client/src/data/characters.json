@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Tailor",
+        "attributes": {
+            "cunning": 4,
+            "wisdom": 3,
+            "might": 1
+        },
+        "image": ""
+    },
+    {
+        "name": "Cook",
+        "attributes": {
+            "cunning": 3,
+            "wisdom": 1,
+            "might": 4
+        },
+        "image": ""
+    },
+    {
+        "name": "Tanner",
+        "attributes": {
+            "cunning": 3,
+            "wisdom": 4,
+            "might": 1
+        },
+        "image": ""
+    },
+    {
+        "name": "Abbot",
+        "attributes": {
+            "cunning": 1,
+            "wisdom": 4,
+            "might": 3
+        },
+        "image": ""
+    },
+    {
+        "name": "Smith",
+        "attributes": {
+            "cunning": 1,
+            "wisdom": 3,
+            "might": 4
+        },
+        "image": ""
+    },
+    {
+        "name": "Miller",
+        "attributes": {
+            "cunning": 4,
+            "wisdom": 1,
+            "might": 3
+        },
+        "image": ""
+    }
+]

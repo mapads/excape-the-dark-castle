@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.join-bg{
+    font-family: "Saira Condensed", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.join-wrapper{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff66;
+    margin-bottom: 15vh;
+    padding: 10px 0px;
+    width: 85%;
+}
+
+.join-wrapper input{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    margin-bottom: 5px;
+    line-height: 50px;
+}
+
+.join-wrapper button{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+.character-selection-bg{
+    font-family: "Saira Condensed", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.character-selection-game-text{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    background-color: #ffffffb0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.character-selection-game-text input{
+    font-family: "Saira Condensed", sans-serif;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 3px 0px;
+    margin-bottom: 15px;
+}
+
+.character-selection-game-text input:focus{
+    outline: none;
+}
+
+.character-card{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    align-items:flex-end;
+
+    width: calc(50vw - 50px);
+    height: calc(50vw - 50px);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+
+    background-color: #ffffff66;
+    margin-bottom: 15px;
+    /* box-shadow: 0px 0px 10px 5px #00000066; */
+    transition: all 0.3s ease;
+}
+
+.character-information{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e0da;
+    padding: 5px 10px;
+}
+
+.character-information h3{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.character-information p{
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+}
+
+.join-btn{
+    font-family: "Saira Condensed", sans-serif;
+    text-transform: uppercase;
+    color: black;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    margin: 25px 0;
+    font-size: 24px;
+    padding: 10px 20px;
+}
